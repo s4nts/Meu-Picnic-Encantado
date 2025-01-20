@@ -79,6 +79,14 @@
     width: 100%;
   }
 
+  .section-subtitle {
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
   .feedback {
     flex-direction: column;
   }
