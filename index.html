@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="logo-removebg-preview.png" alt="logo" style="height: 100px" />
+
+        <ul id="nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Nossas opções</a>
+          </li>
+          <li class="nav-item">
+            <a href="#schedulesn">Horários</a>
+          </li>
+          <li class="nav-item">
+            <a href="#history">Nossa história</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Saiba mais</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Nossas opções</a>
+          </li>
+          <li class="nav-item">
+            <a href="#schedulesn">Horários</a>
+          </li>
+          <li class="nav-item">
+            <a href="#history">Nossa história</a>
+          </li>
+        </ul>
+
+        <a href="https://wa.me/5547992459014" style="text-decoration: none" class="btn-default" target="_blank"
+          >Saiba mais</a
+        >
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            A arte de encantar
+            <span>momentos</span>
+          </h1>
+
+          <p class="description">
+            Transforme qualquer ocasião em uma experiência única e inesquecível. Aqui, cada detalhe é pensado com
+            carinho para criar momentos de puro encanto. De piqueniques românticos a celebrações especiais, nossa missão
+            é proporcionar a você o prazer de vivenciar a magia ao ar livre, com todo o conforto e beleza que você
+            merece. Descubra as opções perfeitas para o seu dia e permita-nos criar memórias incríveis para você e seus
+            convidados!
+          </p>
+
+          <div id="cta_buttons">
+            <a href="https://wa.me/5547992459014" class="btn-default" target="_blank">Saiba mais</a>
+
+            <a href="tel:+554792459014" id="phone_button" target="_blank">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (47) 99245-9014
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="https://wa.me/5547992459014">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.instagram.com/meupicnicencantado/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="src/images/hero.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Opções</h2>
+        <h3 class="section-subtitle">Escolha o Piquenique Perfeito para Você</h3>
+
+        <div id="dishes">
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Piquenique básico</h3>
+
+            <span class="dish-description">
+              Uma opção charmosa e aconchegante que inclui uma tenda, tapetes, almofadas, itens decorativos e um toque
+              de elegância com flores artificiais. Ideal para momentos especiais ao ar livre.
+            </span>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish2.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Piquenique Indoor</h3>
+
+            <span class="dish-description">
+              Perfeito para dias chuvosos ou espaços internos. Essa opção adapta o charme do piquenique para dentro de
+              casa, com a mesma atenção aos detalhes e conforto.
+            </span>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish3.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Piquenique Noturno</h3>
+
+            <span class="dish-description">
+              Uma experiência mágica para aproveitar sob as estrelas. Seja na praia, em um parque ou em um local
+              especial, essa opção é ideal para quem busca um cenário único e encantador à noite.
+            </span>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish4.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Piquenique Personalizado</h3>
+
+            <span class="dish-description">
+              Para quem deseja algo exclusivo e feito sob medida. Personalize cada detalhe, desde o local até a
+              decoração, para criar uma experiência que reflita sua personalidade e estilo.
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedulesn">
+        <div id="testimonials_content">
+          <h2 class="section-title">Horários</h2>
+          <h3 class="section-subtitle">Veja nossos horários de atendimento</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="src/images/avatar.png" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p style="font-weight: 700">Café da Manhã</p>
+
+                <ul>
+                  <li>5:00h – 7:00h: O amanhecer perfeito para quem busca começar cedo.</li>
+                  <li>7:00h – 9:00h: Aproveite a calmaria da manhã em um momento especial.</li>
+                  <li>8:00h – 10:00h: Ideal para quem deseja um café da manhã mais relaxado e aconchegante.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="src/images/avatar.png" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p style="font-weight: 700">Café da Tarde – Pôr do Sol</p>
+
+                <ul>
+                  <li>16:00h – 18:00h: Um momento mágico para relaxar e aproveitar.</li>
+                  <li>17:00h – 19:00h: Acompanhe os tons dourados do fim do dia em um cenário inesquecível.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="src/images/avatar.png" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p style="font-weight: 700">Noturno</p>
+
+                <ul>
+                  <li>19:00h – 21:00h: O início da noite com charme e tranquilidade.</li>
+                  <li>21:00h – 23:00h: Uma experiência noturna perfeita para encerrar o dia com beleza e elegância.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5547992459014" style="text-decoration: none" target="_blank"
+            ><button class="btn-default">Saiba mais</button></a
+          >
+        </div>
+      </section>
+
+      <section id="history">
+        <h2 class="section-title">O início de um sonho</h2>
+        <h3 class="section-subtitle">A história da nossa empresa começou em 2023</h3>
+        <br />
+        <div class="all-text">
+          <p>
+            Nas margens do Lake Ontario, em <b style="color: brown">Toronto, Canadá.</b> Inspirados pela beleza dos
+            parques e pela paixão por criar experiências inesquecíveis ao ar livre, um casal apaixonado por tempo de
+            qualidade decidiu transformar um simples piquenique em um evento especial. Foi assim que nasceu o Meu Picnic
+            Encantado, uma empresa dedicada a oferecer momentos únicos em meio à natureza, com conforto, elegância e um
+            toque personalizado. Nosso conceito é simples, mas cheio de significado: unir pessoas em torno de uma
+            experiência que celebra a conexão com a natureza e com aqueles que amamos. Desde o início, cuidamos de cada
+            detalhe, desde a escolha das cestas e mantas, até a seleção dos melhores ingredientes e locais.
+          </p>
+          <br />
+          <p>
+            <strong>Nossa História</strong><br />
+            Com o tempo, nosso compromisso com qualidade e inovação conquistou o coração dos canadenses. Logo, o Meu
+            Picnic Encantado tornou-se referência em eventos ao ar livre, ampliando sua atuação para atender não apenas
+            encontros casuais, mas também celebrações especiais como aniversários, pedidos de casamento e reuniões
+            corporativas, além de atender também no conforto da sua casa. Em 2025, decidimos expandir nossas fronteiras
+            e trazer esse conceito único para o Brasil. Escolhemos a cidade de Itajaí, em Santa Catarina, por sua
+            conexão com a natureza, suas belas praias e pelo espírito acolhedor da comunidade. A filial brasileira do
+            Meu Picnic Encantado mantém os mesmos padrões de qualidade, mas agora com um toque tropical, valorizando a
+            cultura e os sabores locais.
+          </p>
+          <br />
+          <p>
+            Hoje, temos orgulho de oferecer experiências que unem tradição e inovação, no Canadá e no Brasil, com o
+            mesmo objetivo: criar momentos inesquecíveis, cercados de beleza, carinho e simplicidade. Seja para um dia
+            especial ou para uma celebração marcante, estamos aqui para transformar o seu piquenique em uma lembrança
+            inesquecível.
+          </p>
+        </div>
+
+        <div class="logo-end">
+          <img src="logo-removebg-preview.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="src/images/wave.svg" alt="" />
+
+      <div id="footer_items">
+        <span id="copyright"> &copy 2025 Meu Picnic Encantado</span>
+        <span class="text_footer">
+          <ul></ul>
+          <li>
+            Fiquem atentos a previsão do tempo para possível <br />remarcação do piquenique ou alteração de local.
+          </li>
+          <li>
+            A Garantia de reserva de data e horário, somente com <br />
+            pagamento do sinal de 50% do valor havendo disponibilidade.
+          </li>
+          <li>O saldo restante deverá estar quitado ate 3 dias antes do evento.</li>
+        </span>
+
+        <span class="text_footer">
+          <ul></ul>
+          <li>
+            Combinamos com você, data, hora e local e organizaremos o seu Piquenique <br />
+            com todos os acessórios para que a sua experiência seja o mais agradável e inesquecível possível.
+          </li>
+          <li>Em caso de desistência/cancelamento, o sinal de reserva é intransferível e não reembolsável.</li>
+          <li>
+            Caso opte por parcelamento no cartão de crédito. <br />(Terá acréscimos de juros que será calculado
+            automaticamente através do mercado pago).
+          </li>
+        </span>
+
+        <div class="social-media-buttons">
+          <a href="https://wa.me/5547992459014">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="https://www.instagram.com/meupicnicencantado/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
